@@ -4,7 +4,18 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        mono: ['Inconsolata', 'monospace'],
+        sans: ['Inter', '"PingFang SC"', '"Microsoft YaHei"', '"Hiragino Sans GB"', 'sans-serif'],
+      },
       colors: {
+        'deep-blue': '#111F35',
+        'night': '#131720',
+        'cool-gray': '#D9E1E3',
+        'bright-blue': '#29A9FF',
+        'tech-blue': '#1557A1',
+        'accent-gold': '#D4A843',
+        'dark-text': '#1E2D4A',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
